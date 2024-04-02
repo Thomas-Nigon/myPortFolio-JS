@@ -1,0 +1,27 @@
+.header {
+  height: 8vh;
+  max-height: 8vh;
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: clamp(1rem, -0.2727rem + 5.8182vw, 3rem);
+}
+.header__title {
+  padding-left: 10px;
+  color: blue;
+}
+.header__title--span {
+  color: red;
+}
+
+.header__menuButton--close {
+  height: 100%;
+  width: 20vw;
+  color: red;
+}
+.header__menuButton--open {
+  height: 80%;
+  width: 20vw;
+  color: red;
+}

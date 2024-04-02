@@ -1,7 +1,10 @@
+import Menu from "../../Components/Menu/Menu";
+
 function Home() {
   return (
     <>
-      <h1>Welcome to the home page</h1>
+      <Menu />
+      <h1>Welcome to the homepage</h1>
     </>
   );
 }
