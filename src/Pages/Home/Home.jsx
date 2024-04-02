@@ -1,10 +1,13 @@
 import Menu from "../../Components/Menu/Menu";
+import "./home.scss";
 
 function Home() {
   return (
     <>
-      <Menu />
-      <h1>Welcome to the homepage</h1>
+      <main className="home">
+        <Menu />
+        <h1>Welcome to the homepage</h1>
+      </main>
     </>
   );
 }

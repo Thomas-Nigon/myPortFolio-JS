@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <MenuProvider>
-        <div className="app">
+        <div className="main-container">
           <Header />
           <Outlet />
         </div>
