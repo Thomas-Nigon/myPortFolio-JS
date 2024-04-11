@@ -1,12 +1,17 @@
 import { Outlet } from "react-router-dom";
-import "./App.css";
+import Header from "./Components/Header/Header";
+import { MenuProvider } from "./Contexts/MenuContext";
+import "./app.scss";
 
 function App() {
   return (
     <>
-      <div className="app">
-        <Outlet />
-      </div>
+      <MenuProvider>
+        <div className="main-container">
+          <Header />
+          <Outlet />
+        </div>
+      </MenuProvider>
     </>
   );
 }

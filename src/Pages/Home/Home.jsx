@@ -1,7 +1,13 @@
+import Menu from "../../Components/Menu/Menu";
+import "./home.scss";
+
 function Home() {
   return (
     <>
-      <h1>Welcome to the home page</h1>
+      <main className="home">
+        <Menu />
+        <h1>Welcome to the homepage</h1>
+      </main>
     </>
   );
 }
