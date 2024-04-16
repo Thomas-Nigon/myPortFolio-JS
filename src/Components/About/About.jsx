@@ -1,10 +1,8 @@
 import "./About.scss";
-import { FaGithub } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
 import { FaNode } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import bagWork from "../../assets/images/bagwork.jpg";
+import bagWork from "../../assets/images/bagwork2.png";
 
 function About() {
   return (
@@ -22,20 +20,14 @@ function About() {
         CSS, Javascript et React coté frontend.
       </p>
       <p>
-        Puis NodeJs Express, sql, Mysql pour le coté backend et base de données.
+        Puis, NodeJs Express, sql, Mysql pour le coté backend et base de
+        données.
       </p>
       <p>
-        J&apos;ai également eu la chance de travailler en equipe via Github sur
-        différents projets.
+        J&apos;ai également eu la chance de travailler en équipe via Github sur
+        différents projets que vous pourrez trouver plus
+        <span className="accent">bas</span>.
       </p>
-      {/*       <section className="about__paraph--skills">
-        <h2 className="about--h2">Frontend</h2>
-        <p className="about--p">Je maitrise HTML, CSS, Javascript et React.</p>
-        <h2 className="about--h2">Backend</h2>
-        <p className="about--p">Je maitrise NodeJs, ExpressJS.</p>
-        <h2 className="about--h2">Base de données</h2>
-        <p className="about--p">Je maitrise sql et mySql.</p>
-      </section> */}
       <section className="about__skills">
         <FaReact className="icons--dark" />
         <FaNode className="icons--dark" />
