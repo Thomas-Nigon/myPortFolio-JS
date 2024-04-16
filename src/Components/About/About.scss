@@ -1,0 +1,33 @@
+@import "../../variables.scss";
+
+.about {
+  background-color: $main;
+  color: $darkerMain;
+  padding: 3vw;
+}
+
+.about--title {
+  border-width: 0px 0px 3px 0px;
+  border-style: solid;
+  border-color: $accent;
+  display: inline;
+}
+.about--h2 {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
+}
+.about--p {
+  margin: 0;
+  padding: 0;
+}
+
+.about__skills {
+  margin: 1vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about--pics {
+  width: 100%;
+}
