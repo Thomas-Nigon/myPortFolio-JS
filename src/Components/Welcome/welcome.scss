@@ -1,0 +1,47 @@
+@import "../../variables.scss";
+
+.welcome {
+  background-color: $darkerMain;
+  padding: 3vw;
+}
+.welcome__title {
+  margin: 2vh 0;
+  // color: $lighterMain;
+  color: beige;
+}
+.welcome--accent {
+  color: $accent;
+}
+.welcome--text {
+  color: beige;
+}
+
+.welcome--pics {
+  width: 100%;
+}
+
+.welcome__socialContainer {
+  margin: 3vh 0;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome--socialIcons {
+  color: beige;
+  width: clamp(2.5rem, -0.3rem + 5.8vw, 4rem);
+  height: 100%;
+}
+
+.welcome__socialContainer__iconsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome--button {
+  border: none;
+  padding: 5px;
+  margin-top: 1vh;
+  background-color: $main;
+  color: beige;
+}

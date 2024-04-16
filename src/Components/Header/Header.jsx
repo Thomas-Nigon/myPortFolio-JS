@@ -14,7 +14,7 @@ function Header() {
     <>
       <header className="header">
         <h1 className="header__title">
-          <span className="header__title--span">T</span>homas
+          <span className="header--accent">T</span>homas
         </h1>
         {isOpen ? (
           <IoClose

@@ -1,4 +1,6 @@
+import About from "../../Components/About/About";
 import Menu from "../../Components/Menu/Menu";
+import Welcome from "../../Components/Welcome/Welcome";
 import "./home.scss";
 
 function Home() {
@@ -6,7 +8,8 @@ function Home() {
     <>
       <main className="home">
         <Menu />
-        <h1>Welcome to the homepage</h1>
+        <Welcome />
+        <About />
       </main>
     </>
   );
