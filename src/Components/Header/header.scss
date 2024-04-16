@@ -1,27 +1,32 @@
+@import "../../variables.scss";
+
 .header {
   height: 8vh;
   max-height: 8vh;
-  background-color: pink;
+  background-color: $main;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: clamp(1rem, -0.2727rem + 5.8182vw, 3rem);
 }
+.header--accent {
+  color: $accent;
+}
 .header__title {
   padding-left: 10px;
-  color: blue;
+  color: $darkerMain;
 }
 .header__title--span {
-  color: red;
+  color: $accent;
 }
 
 .header__menuButton--close {
   height: 100%;
   width: 20vw;
-  color: red;
+  color: $accent;
 }
 .header__menuButton--open {
   height: 80%;
   width: 20vw;
-  color: red;
+  color: $accent;
 }

@@ -1,3 +1,4 @@
+@import "../../variables.scss";
 .menu {
   background-color: beige;
   position: absolute;
@@ -20,6 +21,7 @@
 }
 
 .menu__item {
+  color: $darkerMain;
   padding-bottom: 20px;
 }
 

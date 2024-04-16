@@ -1,4 +1,6 @@
+@import "../../variables.scss";
+
 .home {
-  background-color: aqua;
+  background-color: $lighterMain;
   min-height: 100vh;
 }
