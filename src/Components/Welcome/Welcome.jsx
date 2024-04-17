@@ -9,7 +9,7 @@ function Welcome() {
   return (
     <>
       <main className="welcome">
-        <section>
+        <section className="welcome__sideContainer">
           <h1 className="welcome__title">Bonjour !</h1>
           <h2 className="welcome__title">
             Je m&apos;appelle Thomas,
