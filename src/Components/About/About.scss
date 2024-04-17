@@ -35,10 +35,10 @@
 
 @media screen and (min-width: 600px) {
   .about {
-    padding: 6vw;
     display: flex;
   }
   .about--pics {
     width: 50%;
+    object-fit: contain;
   }
 }
