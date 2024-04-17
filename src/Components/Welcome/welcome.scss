@@ -60,14 +60,13 @@
   .welcome {
     font-size: 2rem;
     background-color: $darkerMain;
-    padding: 6vw;
     display: flex;
     justify-content: space-between;
   }
   .welcome--pics {
     width: 50%;
     object-fit: contain;
-    margin-top: -6vh;
+    margin-top: -2vh;
   }
   .welcome__socialContainer {
     width: 200px;
