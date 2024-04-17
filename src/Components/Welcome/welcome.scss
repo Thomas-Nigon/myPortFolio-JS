@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 
 .welcome {
-  font-size: clamp(1rem, 4.8vw, 2rem);
+  font-size: clamp(1rem, 1.3vw, 2rem);
   background-color: $darkerMain;
   padding: 3vw;
 }
@@ -14,11 +14,11 @@
   color: $accent;
 }
 .welcome--text {
-  font-size: clamp(1rem, 4.3vw, 2rem);
+  font-size: clamp(1rem, 1.2vw, 2rem);
   color: beige;
 }
 .welcome--skillList {
-  font-size: clamp(1rem, 4.3vw, 2rem);
+  font-size: clamp(1rem, 1.2vw, 2rem);
   padding: 0 0 0 3vw;
   display: flex;
   justify-content: space-between;
@@ -53,15 +53,19 @@
   margin-top: 1vh;
   background-color: $main;
   color: beige;
-  font-size: clamp(1rem, 4.8vw, 2rem);
+  font-size: clamp(1rem, 1.2vw, 2rem);
 }
 
 @media screen and (min-width: 600px) {
   .welcome {
-    font-size: 2rem;
     background-color: $darkerMain;
     display: flex;
     justify-content: space-between;
+  }
+  .welcome__sideContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .welcome--pics {
     width: 50%;
