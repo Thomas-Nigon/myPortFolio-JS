@@ -1,6 +1,7 @@
 @import "../../variables.scss";
 
 .about {
+  font-size: clamp(1rem, 1.2vw, 2rem);
   background-color: $main;
   color: $darkerMain;
   padding: 3vw;
@@ -17,10 +18,6 @@
   margin: 0;
   padding: 0;
 }
-.about--p {
-  margin: 0;
-  padding: 0;
-}
 
 .about__skills {
   margin: 1vw;
@@ -30,4 +27,24 @@
 
 .about--pics {
   width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .about {
+    display: flex;
+  }
+
+  .about__container {
+    width: 50%;
+  }
+  .about__paragraph--me {
+    margin-top: 6vh;
+  }
+  .about--title {
+    margin-bottom: 15px;
+  }
+  .about--pics {
+    width: 50%;
+    object-fit: contain;
+  }
 }

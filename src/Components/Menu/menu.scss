@@ -1,10 +1,11 @@
 @import "../../variables.scss";
 .menu {
+  font-size: clamp(1rem, 4.8vw, 2rem);
   background-color: beige;
   position: absolute;
   left: 100%;
   top: 8vh;
-  width: 40%;
+  width: 200px;
   height: 100vh;
   display: flex;
   //flex-direction: row-reverse;

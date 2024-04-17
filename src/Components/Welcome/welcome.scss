@@ -1,18 +1,26 @@
 @import "../../variables.scss";
 
 .welcome {
+  font-size: clamp(1rem, 1.3vw, 2rem);
   background-color: $darkerMain;
   padding: 3vw;
 }
 .welcome__title {
   margin: 2vh 0;
-  // color: $lighterMain;
   color: beige;
 }
 .welcome--accent {
   color: $accent;
 }
 .welcome--text {
+  font-size: clamp(1rem, 1.2vw, 2rem);
+  color: beige;
+}
+.welcome--skillList {
+  font-size: clamp(1rem, 1.2vw, 2rem);
+  padding: 0 0 0 3vw;
+  display: flex;
+  justify-content: space-between;
   color: beige;
 }
 
@@ -22,14 +30,14 @@
 
 .welcome__socialContainer {
   margin: 3vh 0;
-  width: 30vw;
+  width: 120px;
   display: flex;
   flex-direction: column;
 }
 
 .welcome--socialIcons {
   color: beige;
-  width: clamp(2.5rem, -0.3rem + 5.8vw, 4rem);
+  width: clamp(2.5rem, -0.3rem + 5.8vw, 3.5rem);
   height: 100%;
 }
 
@@ -44,4 +52,27 @@
   margin-top: 1vh;
   background-color: $main;
   color: beige;
+  font-size: clamp(1rem, 1.2vw, 2rem);
+}
+
+@media screen and (min-width: 600px) {
+  .welcome {
+    background-color: $darkerMain;
+    display: flex;
+    justify-content: space-between;
+  }
+  .welcome__sideContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .welcome--pics {
+    width: 50%;
+    object-fit: contain;
+    margin-top: -2vh;
+  }
+  .welcome__socialContainer {
+    width: 200px;
+    margin: 5vh 0;
+  }
 }
