@@ -7,7 +7,7 @@ import bagWork from "../../assets/images/bagwork2.png";
 function About() {
   return (
     <main className="about">
-      <section>
+      <section className="about__container">
         <h1 className="about--title">A propos </h1>
         <p className="about__paragraph--me">
           Je m&apos;appelle Thomas, j&apos;ai 35 ans. Suite à un licenciement
