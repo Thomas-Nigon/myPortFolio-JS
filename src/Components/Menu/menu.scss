@@ -1,5 +1,6 @@
 @import "../../variables.scss";
 .menu {
+  font-size: clamp(1rem, 4.8vw, 2rem);
   background-color: beige;
   position: absolute;
   left: 100%;

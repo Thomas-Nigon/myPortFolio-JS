@@ -1,6 +1,7 @@
 @import "../../variables.scss";
 
 .about {
+  font-size: clamp(1rem, 4.8vw, 2rem);
   background-color: $main;
   color: $darkerMain;
   padding: 3vw;
@@ -30,4 +31,14 @@
 
 .about--pics {
   width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .about {
+    padding: 6vw;
+    display: flex;
+  }
+  .about--pics {
+    width: 50%;
+  }
 }
