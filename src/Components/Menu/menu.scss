@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 .menu {
   font-size: clamp(1rem, 4.8vw, 2rem);
-  background-color: beige;
+  background-color: $lightFont;
   position: absolute;
   left: 100%;
   top: 8vh;

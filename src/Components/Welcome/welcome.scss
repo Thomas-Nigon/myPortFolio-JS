@@ -7,21 +7,21 @@
 }
 .welcome__title {
   margin: 2vh 0;
-  color: beige;
+  color: $lightFont;
 }
 .welcome--accent {
   color: $accent;
 }
 .welcome--text {
   font-size: clamp(1rem, 1.2vw, 2rem);
-  color: beige;
+  color: $lightFont;
 }
 .welcome--skillList {
   font-size: clamp(1rem, 1.2vw, 2rem);
   padding: 0 0 0 3vw;
   display: flex;
   justify-content: space-between;
-  color: beige;
+  color: $lightFont;
 }
 
 .welcome--pics {
@@ -36,7 +36,7 @@
 }
 
 .welcome--socialIcons {
-  color: beige;
+  color: $lightFont;
   width: clamp(2.5rem, -0.3rem + 5.8vw, 3.5rem);
   height: 100%;
 }
@@ -51,7 +51,7 @@
   padding: 5px;
   margin-top: 1vh;
   background-color: $main;
-  color: beige;
+  color: $lightFont;
   font-size: clamp(1rem, 1.2vw, 2rem);
 }
 

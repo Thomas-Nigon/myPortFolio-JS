@@ -1,5 +1,61 @@
 @import "../../variables.scss";
 
 .projects {
+  font-size: clamp(1rem, 1.2vw, 2rem);
   background-color: $darkerMain;
+  padding: 3vw;
+  color: $lightFont;
+}
+.projects--title {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  border-width: 0px 0px 3px 0px;
+  border-style: solid;
+  border-color: $accent;
+  display: inline;
+}
+.projects--container {
+  margin-top: 3vh;
+}
+.projects__singleProject {
+  margin-bottom: 10px;
+  position: relative;
+}
+.projects__singleProject--description {
+  background-color: $darkerMainTrans;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5%;
+  width: 90%;
+  height: 90%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+.projects__singleProject--description:hover {
+  opacity: 100%;
+  transition: 0.5s;
+}
+.singleProject__imgContainer {
+  display: flex;
+}
+.projects__singleProject--thumbnail {
+  width: 50%;
+}
+.projects__singleProject--description--button {
+  color: $lightFont;
+  background-color: $darkMain;
+  border: none;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+}
+.projects--socialIcons {
+  width: clamp(2rem, -0.3rem + 1vw, 3.5rem);
+  height: 100%;
 }
