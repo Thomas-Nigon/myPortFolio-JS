@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "My boxing trainer",
+    "short": "Projet sprint fullstack réalisé en 48h, application sportive",
+    "description": "Timer de boxe pour s'entrainer. Possibilité de choisir la durée des rounds et entrainement. Gestion des utilisateurs et de base de donnée pour stocker les différences programmes",
+    "img": "/assets/images/MBT.png",
+    "secondPic": "/assets/images/MBT_timer.png",
+    "alt": "Page d'accueil mobile du site My boxing trainer",
+    "alt2": "timer de boxe du site my boxing trainer",
+    "link": "www.google.com",
+    "direction": "portrait",
+    "flex": "row"
+  },
+  {
+    "id": 2,
+    "title": "Eating Nam Nam",
+    "short": "Projet Wild Code School n°3 Site de partage de recette de cuisine",
+    "description": "Projet full stack synthétisant ce que j'ai appris au cours de la formation. Gestion de BDD, session utilisateur (Token JWT & cookie), formulaire d'inscription",
+    "img": "/assets/images/ENN.png",
+    "secondPic": "/assets/images/ENN_singleRecipe.png",
+    "alt": "La page d'accueil mobile du site eating nam nam, site de partage de recettes de cuisine",
+    "alt2": "la recette de cuisine du risoto aux petits épautres",
+    "link": "www.google.com",
+    "direction": "portrait",
+    "flex": "row"
+  },
+  {
+    "id": 3,
+    "title": "Lille Street Art",
+    "short": "Projet Wild Code School n°2, musée virtuel du street art Lillois",
+    "description": "Projet front end React avec appel d'API",
+    "img": "/assets/images/LSA.png",
+    "secondPic": "/assets/images/LSA_musee.png",
+    "alt": "La page d'accueil desktop du site Lille Street Art",
+    "alt2": "La page musée du site Lille Street Art",
+    "link": "www.google.com",
+    "direction": "landscape",
+    "flex": "column"
+  }
+]
