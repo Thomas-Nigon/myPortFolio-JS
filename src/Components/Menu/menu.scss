@@ -2,19 +2,17 @@
 .menu {
   font-size: clamp(1rem, 4.8vw, 2rem);
   background-color: $lightFont;
-  position: absolute;
+  position: fixed;
   left: 100%;
   top: 8vh;
   width: 200px;
   height: 100vh;
   display: flex;
-  //flex-direction: row-reverse;
   flex-direction: row;
 }
 
 .menu__list {
   list-style: none;
-  // padding-right: 7vw;
 }
 
 .menu__item:first-child {
