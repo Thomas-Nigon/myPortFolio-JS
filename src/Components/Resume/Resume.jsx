@@ -1,6 +1,6 @@
 import "./Resume.scss";
 import Cv from "../../assets/images/CV.png";
-import CvMot from "../../assets/images/CV_motivationnel.png";
+import CvMot from "../../assets/images/CV_motivationnel_V2.png";
 function Resume() {
   return (
     <main className="resume">
