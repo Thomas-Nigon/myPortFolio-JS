@@ -16,7 +16,7 @@
   top: 0;
   padding: 5%;
   width: 90%;
-  height: 90%;
+  height: calc(90% + 5px);
   opacity: 0;
   display: flex;
   justify-content: center;
