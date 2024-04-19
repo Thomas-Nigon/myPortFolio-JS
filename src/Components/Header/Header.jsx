@@ -24,7 +24,7 @@ function Header() {
         <h1 className="header__title">
           <span className="header--accent">T</span>homas
         </h1>
-        {isOpen ? (
+        {isOpen === "menu--open" ? (
           <IoClose className="header__menuButton--close" onClick={close} />
         ) : (
           <FaBars className="header__menuButton--open" onClick={open} />
