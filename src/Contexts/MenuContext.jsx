@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export const MenuContext = createContext();
 
 export function MenuProvider({ children }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState("");
   const stateButton = useMemo(
     () => ({
       isOpen,
