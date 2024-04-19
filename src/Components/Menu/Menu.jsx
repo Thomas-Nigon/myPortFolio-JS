@@ -5,7 +5,7 @@ import { MenuContext } from "../../Contexts/MenuContext";
 function Menu() {
   const { isOpen } = useContext(MenuContext);
   return (
-    <section className={isOpen ? "menu menu--open" : "menu menu--close"}>
+    <section className={`menu ${isOpen}`}>
       <ul className="menu__list">
         <li className="menu__item">Welcome</li>
         <li className="menu__item">About</li>
