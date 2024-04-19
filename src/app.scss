@@ -18,7 +18,7 @@ body {
   color: $accent;
 }
 .icons {
-  color: beige;
+  color: $lightFont;
   width: clamp(2.5rem, -0.3rem + 5.8vw, 4rem);
   height: 100%;
 }

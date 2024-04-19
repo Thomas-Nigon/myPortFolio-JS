@@ -18,14 +18,14 @@ function Welcome() {
           </h2>
           <p className="welcome--text">
             Fraichement diplomé de la <span className="welcome--accent">W</span>
-            ild Code School <nbsp></nbsp> je maitrise: <nbsp></nbsp>
+            ild Code School je maitrise:
           </p>
           <ul className="welcome--skillList">
             <li>
-              <span className="welcome--accent">R</span>eact<nbsp></nbsp>
+              <span className="welcome--accent">R</span>eact
             </li>
             <li>
-              <span className="welcome--accent">N</span>ode.JS<nbsp></nbsp>
+              <span className="welcome--accent">N</span>ode.JS
             </li>
             <li>
               <span className="welcome--accent">E</span>xpress.JS
