@@ -1,27 +1,15 @@
 @import "../../variables.scss";
 
-.projects {
-  font-size: clamp(1rem, 1.2vw, 2rem);
-  background-color: $darkerMain;
-  padding: 3vw;
-  color: $lightFont;
-}
-.projects--title {
-  margin-top: 20px;
-  font-size: 1.5rem;
-  border-width: 0px 0px 3px 0px;
-  border-style: solid;
-  border-color: $accent;
-  display: inline;
-}
-.projects--container {
-  margin-top: 3vh;
-}
-.projects__singleProject {
+.singleProject {
+  display: flex;
+  justify-content: center;
   margin-bottom: 10px;
   position: relative;
+  background-color: $main;
+  border-radius: 20px;
 }
-.projects__singleProject--description {
+.singleProject__description {
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
   background-color: $darkerMainTrans;
   position: absolute;
   left: 0;
@@ -35,19 +23,33 @@
   flex-direction: column;
   transition: 0.5s;
 }
-.projects__singleProject--description:hover {
+.singleProject__description:hover {
   opacity: 100%;
   transition: 0.5s;
 }
-.singleProject__imgContainer {
-  display: flex;
+.singleProject__description--paragraph {
+  margin: 5px;
 }
-.projects__singleProject--thumbnail {
-  width: 50%;
+.portrait {
+  width: 40%;
+  margin: 2%;
 }
-.projects__singleProject--description--button {
-  color: $lightFont;
-  background-color: $darkMain;
+.landscape {
+  width: 90%;
+  margin: 2%;
+}
+.row {
+  flex-direction: row;
+  align-items: center;
+}
+.column {
+  align-items: center;
+  flex-direction: column;
+}
+.singleProject--description--button {
+  margin-top: 5px;
+  color: $darkerMain;
+  background-color: $lightFont;
   border: none;
   width: 150px;
   display: flex;
@@ -55,7 +57,26 @@
   align-items: center;
   font-size: 1rem;
 }
-.projects--socialIcons {
+.singleProject--socialIcons {
   width: clamp(2rem, -0.3rem + 1vw, 3.5rem);
   height: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .singleProject {
+    width: 45%;
+  }
+  .projects--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .portrait {
+    height: fit-content;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .singleProject {
+    width: 30%;
+  }
 }
