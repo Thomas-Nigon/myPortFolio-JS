@@ -53,7 +53,7 @@ function Welcome() {
               duration={500}
               className="welcome--button"
             >
-              <span className="accent">M</span>es projets
+              <span className="accent">D</span>écouvrez mes projets
             </Link>
           </section>
         </section>
