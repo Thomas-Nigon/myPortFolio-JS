@@ -8,7 +8,7 @@
     "secondPic": "/assets/images/MBT_timer.png",
     "alt": "Page d'accueil mobile du site My boxing trainer",
     "alt2": "timer de boxe du site my boxing trainer",
-    "link": "www.google.com",
+    "link": "https://github.com/Thomas-Nigon/My-Boxing-Trainer--V2",
     "direction": "portrait",
     "flex": "row"
   },
@@ -21,7 +21,7 @@
     "secondPic": "/assets/images/ENN_singleRecipe.png",
     "alt": "La page d'accueil mobile du site eating nam nam, site de partage de recettes de cuisine",
     "alt2": "la recette de cuisine du risoto aux petits épautres",
-    "link": "www.google.com",
+    "link": "https://github.com/Thomas-Nigon/eatingnamnam-TNIG",
     "direction": "portrait",
     "flex": "row"
   },
@@ -34,7 +34,7 @@
     "secondPic": "/assets/images/LSA_musee.png",
     "alt": "La page d'accueil desktop du site Lille Street Art",
     "alt2": "La page musée du site Lille Street Art",
-    "link": "www.google.com",
+    "link": "https://github.com/Thomas-Nigon/Graphiteam_LilleStreetArt",
     "direction": "landscape",
     "flex": "column"
   }

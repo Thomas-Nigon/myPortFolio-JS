@@ -24,9 +24,15 @@ function SingleProjectCard({ project }) {
         <p className="singleProject__description--paragraph">
           {project.description}
         </p>
-        <button className="singleProject--description--button">
-          Voir le code <FaGithub className="singleProject--socialIcons" />
-        </button>
+
+        <a
+          className="singleProject__description--link"
+          href={project.link}
+          target="_blank"
+        >
+          Voir le code
+          <FaGithub className="singleProject--socialIcons" />
+        </a>
       </div>
     </article>
   );
@@ -43,6 +49,7 @@ SingleProjectCard.propTypes = {
     alt: PropTypes.string.isRequired,
     alt2: PropTypes.string,
     flex: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
   }).isRequired,
 };
 
