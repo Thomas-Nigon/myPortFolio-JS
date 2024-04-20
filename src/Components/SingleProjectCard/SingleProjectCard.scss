@@ -9,7 +9,7 @@
   border-radius: 20px;
 }
 .singleProject__description {
-  font-size: clamp(1rem, 1.2vw, 1.5rem);
+  font-size: clamp(0.8rem, 1.2vw, 1.5rem);
   background-color: $darkerMainTrans;
   position: absolute;
   left: 0;
@@ -46,7 +46,7 @@
   align-items: center;
   flex-direction: column;
 }
-.singleProject--description--button {
+.singleProject__description--link {
   margin-top: 5px;
   color: $darkerMain;
   background-color: $lightFont;
@@ -57,6 +57,7 @@
   align-items: center;
   font-size: 1rem;
 }
+
 .singleProject--socialIcons {
   width: clamp(2rem, -0.3rem + 1vw, 3.5rem);
   height: 100%;

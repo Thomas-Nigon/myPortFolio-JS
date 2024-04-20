@@ -1,8 +1,7 @@
 import "./welcome.scss";
-// import frontpicdev from "../../assets/images/croppedHappyDev.png";
-// import backdev from "../../assets/images/backdev.jpg";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
+import { Link } from "react-scroll";
 
 import darkerbackdev from "../../assets/images/darkerbackdev.png";
 function Welcome() {
@@ -10,7 +9,9 @@ function Welcome() {
     <>
       <main className="welcome">
         <section className="welcome__sideContainer">
-          <h1 className="welcome__title">Bonjour !</h1>
+          <h1 className="welcome__title">
+            <span className="accent">B</span>onjour !
+          </h1>
           <h2 className="welcome__title">
             Je m&apos;appelle Thomas,
             <br />
@@ -33,12 +34,27 @@ function Welcome() {
           </ul>
           <section className="welcome__socialContainer">
             <article className="welcome__socialContainer__iconsContainer">
-              <FaLinkedin className="welcome--socialIcons" />
-              <FaGithub className="welcome--socialIcons" />
+              <a
+                className="welcome--links"
+                href="https://www.linkedin.com/in/thomas-nigon/"
+              >
+                <FaLinkedin className="welcome--socialIcons" />
+              </a>
+              <a
+                className="welcome--links"
+                href="https://github.com/Thomas-Nigon"
+              >
+                <FaGithub className="welcome--socialIcons" />
+              </a>
             </article>
-            <button className="welcome--button">
-              Mes <span className="welcome--accent">P</span>rojets{" "}
-            </button>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              className="welcome--button"
+            >
+              <span className="accent">M</span>es projets
+            </Link>
           </section>
         </section>
         <img
