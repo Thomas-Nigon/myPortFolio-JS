@@ -1,5 +1,6 @@
 @import "../../variables.scss";
 .menu {
+  z-index: 3;
   font-size: clamp(1rem, 4.8vw, 2rem);
   background-color: $lightFont;
   position: fixed;
@@ -13,15 +14,27 @@
 
 .menu__list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .menu__item:first-child {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .menu__item {
+  width: 100%;
   color: $darkerMain;
-  padding-bottom: 20px;
+  //padding-bottom: 20px;
+  padding: 10px;
+}
+.menu__item:hover {
+  cursor: pointer;
+  color: $lightFont;
+  background-color: $darkerMain;
 }
 
 .menu--open {

@@ -13,6 +13,7 @@
   color: $accent;
 }
 .header__title {
+  font-family: $titleFont;
   padding-left: 10px;
   color: $darkerMain;
 }
@@ -24,6 +25,10 @@
   height: 100%;
   width: 100px;
   color: $accent;
+}
+.header__menuButton--close,
+.header__menuButton--open {
+  cursor: pointer;
 }
 .header__menuButton--open {
   height: 80%;

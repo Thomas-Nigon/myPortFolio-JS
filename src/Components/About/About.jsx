@@ -1,4 +1,5 @@
 import "./About.scss";
+import { Link } from "react-scroll";
 import { FaReact } from "react-icons/fa6";
 import { FaNode } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
@@ -27,7 +28,14 @@ function About() {
         <p>
           J&apos;ai également eu la chance de travailler en équipe via Github
           sur différents projets que vous pourrez trouver plus
-          <span className="accent"> bas</span>.
+          <Link
+            to="projects"
+            smooth={true}
+            duration={500}
+            className="about--links"
+          >
+            <span className="accent"> bas</span>.
+          </Link>
         </p>
         <section className="about__skills">
           <FaReact className="icons--dark" />
