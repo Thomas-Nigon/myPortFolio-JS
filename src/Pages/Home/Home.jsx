@@ -6,11 +6,17 @@ import Projects from "../../Components/Projects/Projects";
 import Resume from "../../Components/Resume/Resume";
 import Welcome from "../../Components/Welcome/Welcome";
 import "./home.scss";
+import { useContext } from "react";
+import { MenuContext } from "../../Contexts/MenuContext";
 
 function Home() {
+  const { setIsOpen } = useContext(MenuContext);
+  const handleClick = () => {
+    setIsOpen("menu--close");
+  };
   return (
     <>
-      <main className="home">
+      <main className="home" onClick={handleClick}>
         <Menu />
         <Welcome />
         <About />
