@@ -15,6 +15,7 @@ function Projects() {
   return (
     <main className="projects">
       <h1 className="projects--title">Mes Projets</h1>
+      <p className="projects--p">Clickez pour plus d&apos;informations</p>
       <section className="projects--container">
         {projects.map((project) => (
           <SingleProjectCard project={project} key={project.id} />

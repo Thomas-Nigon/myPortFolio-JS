@@ -28,7 +28,10 @@
   display: flex;
   justify-content: space-around;
 }
-
+.icons--dark {
+  width: 15%;
+  height: 100%;
+}
 .about--pics {
   width: 100%;
 }
@@ -51,5 +54,12 @@
   .about--pics {
     width: 50%;
     object-fit: contain;
+  }
+  .about__skills {
+    justify-content: space-between;
+  }
+  .icons--dark {
+    width: 10%;
+    height: 100%;
   }
 }
