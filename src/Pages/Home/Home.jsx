@@ -10,9 +10,11 @@ import { useContext } from "react";
 import { MenuContext } from "../../Contexts/MenuContext";
 
 function Home() {
-  const { setIsOpen } = useContext(MenuContext);
+  const { isOpen, setIsOpen } = useContext(MenuContext);
   const handleClick = () => {
-    setIsOpen("menu--close");
+    {
+      isOpen === "neutral" ? "" : setIsOpen("menu--close");
+    }
   };
   return (
     <>
