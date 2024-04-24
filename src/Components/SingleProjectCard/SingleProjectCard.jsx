@@ -1,6 +1,7 @@
 import "./SingleProjectCard.scss";
 import PropTypes from "prop-types";
 import { FaGithub } from "react-icons/fa6";
+import { FaPlayCircle } from "react-icons/fa";
 
 function SingleProjectCard({ project }) {
   console.log(project.secondPic);
@@ -33,6 +34,18 @@ function SingleProjectCard({ project }) {
           Voir le code
           <FaGithub className="singleProject--socialIcons" />
         </a>
+        {project.play ? (
+          <a
+            className="singleProject__description--link"
+            href={project.play}
+            target="_blank"
+          >
+            Live Demo
+            <FaPlayCircle className="singleProject--socialIcons" />
+          </a>
+        ) : (
+          ""
+        )}
       </div>
     </article>
   );
@@ -50,6 +63,7 @@ SingleProjectCard.propTypes = {
     alt2: PropTypes.string,
     flex: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
+    play: PropTypes.string.isRequired,
   }).isRequired,
 };
 

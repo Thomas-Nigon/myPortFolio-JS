@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "My boxing trainer",
-    "short": "Projet sprint fullstack réalisé en 48h, application sportive",
-    "description": "Timer de boxe pour s'entrainer. Possibilité de choisir la durée des rounds et entrainement. Gestion des utilisateurs et de base de donnée pour stocker les différences programmes",
+    "short": "Projet sprint fullstack réalisé en 48h. Application Dédiée à la boxe",
+    "description": "Timers et entrainement de boxe personnalisables. Possibilité de choisir la durée des rounds et des entrainements. Gestion des utilisateurs et de base de données pour stocker différents programmes et chronomètres personalisés",
     "img": "/assets/images/MBT.png",
     "secondPic": "/assets/images/MBT_timer.png",
     "alt": "Page d'accueil mobile du site My boxing trainer",
@@ -15,8 +15,8 @@
   {
     "id": 2,
     "title": "Eating Nam Nam",
-    "short": "Projet Wild Code School n°3 Site de partage de recette de cuisine",
-    "description": "Projet full stack synthétisant ce que j'ai appris au cours de la formation. Gestion de BDD, session utilisateur (Token JWT & cookie), formulaire d'inscription",
+    "short": "Projet Wild Code School n°3. Site de partage de recette de cuisine",
+    "description": "Projet fullstack, synthétisant ce que j'ai appris au cours de la formation. Gestion de BDD, session utilisateur (Token JWT & cookie), formulaire d'inscription",
     "img": "/assets/images/ENN.png",
     "secondPic": "/assets/images/ENN_singleRecipe.png",
     "alt": "La page d'accueil mobile du site eating nam nam, site de partage de recettes de cuisine",
@@ -28,8 +28,8 @@
   {
     "id": 3,
     "title": "Lille Street Art",
-    "short": "Projet Wild Code School n°2, musée virtuel du street art Lillois",
-    "description": "Projet front end React avec appel d'API",
+    "short": "Projet Wild Code School n°2. Musée virtuel du street art Lillois",
+    "description": "Projet frontend, réalisé en React avec appel d'API pour simuler la base de données regroupant toutes les oeuvres du projet",
     "img": "/assets/images/LSA.png",
     "secondPic": "/assets/images/LSA_musee.png",
     "alt": "La page d'accueil desktop du site Lille Street Art",
@@ -37,5 +37,33 @@
     "link": "https://github.com/Thomas-Nigon/Graphiteam_LilleStreetArt",
     "direction": "landscape",
     "flex": "column"
+  },
+  {
+    "id": 4,
+    "title": "Clic Tap Taupe",
+    "short": "Projet Wild Code School n°1. Cookie clicker",
+    "description": "Projet Javascript, réalisé en début de formation uniquement sur les base de HTML CSS et javascript",
+    "img": "/assets/images/CTT_home.png",
+    "secondPic": "/assets/images/CTT_menu.png",
+    "alt": "La page d'accueil mobile du site Clic Tap Taupe",
+    "alt2": "La page meu mobile du site Clic Tap Taupe",
+    "link": "https://github.com/Thomas-Nigon/clicTapTaupe_clicker",
+    "play": "https://thomas-nigon.github.io/clicTapTaupe_clicker/",
+    "direction": "portrait",
+    "flex": "row"
+  },
+  {
+    "id": 5,
+    "title": "Pao Clicker",
+    "short": "Mon premier projet avant d'intégrer la Wild Code School",
+    "description": "Projet réalisé en autodidacte en HTML CSS et JS",
+    "img": "/assets/images/pao_home.png",
+    "secondPic": "/assets/images/pao_IG.png",
+    "alt": "La page d'accueil mobile du site Pao clicker",
+    "alt2": "La page meu mobile du site Pao clicker",
+    "link": "https://github.com/Thomas-Nigon/Boxing_Simon_game",
+    "play": "https://boxing-simon-game.vercel.app/",
+    "direction": "portrait",
+    "flex": "row"
   }
 ]
